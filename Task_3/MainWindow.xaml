@@ -1,0 +1,24 @@
+﻿<Window x:Class="Task_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="First Name" HorizontalAlignment="Left" Height="27" Margin="62,25,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="firstnameBox" HorizontalAlignment="Left" Height="23" Margin="174,29,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="62,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lastnameBox" HorizontalAlignment="Left" Height="23" Margin="174,98,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="62,149,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="phonenumber" HorizontalAlignment="Left" Height="23" Margin="174,149,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date of Birth" HorizontalAlignment="Left" Margin="62,201,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dob" HorizontalAlignment="Left" Margin="174,201,0,0" VerticalAlignment="Top"/>
+        <Label Content="Customer Information" HorizontalAlignment="Left" Margin="464,46,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="64,265,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="201,265,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="infobox" HorizontalAlignment="Left" Height="176" Margin="464,77,0,0" VerticalAlignment="Top" Width="253"/>
+
+    </Grid>
+</Window>
